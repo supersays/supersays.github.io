@@ -102,7 +102,6 @@ a:active {
 }
 .page-top .nav a.current {
   color: #5a5a5a;
-  font-weight: 600;
   padding-bottom: 20px;
   border-bottom: 2px solid #4786d6;
 }
