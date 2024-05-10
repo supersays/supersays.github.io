@@ -1,6 +1,5 @@
 @charset 'UTF-8';
 html {
-  background-color: #fff;
   -webkit-font-smoothing: antialiased;
   transition: all 0.2s ease-out;
 }
@@ -17,6 +16,11 @@ body {
   width: 100%;
   margin: 0 auto 30px auto;
   background-color: #fff;
+  background: url("/images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
 }
 p {
   line-height: 1.9em;
@@ -73,13 +77,14 @@ a:active {
   float: right;
   width: 70%;
   margin-top: 60px;
+  background: rgba(255,255,255,0.5);
 }
 .page-top {
   width: 70%;
   position: fixed;
   right: 0;
   z-index: 3;
-  background-color: #fff;
+  background: rgba(255,255,255,0.9);
   height: 60px;
   border-bottom: 1px solid #e2e2e2;
 }
@@ -131,7 +136,7 @@ a:active {
   width: 30%;
   -webkit-background-size: cover;
   background-size: cover;
-  background-color: #fff;
+  background: rgba(255,255,255,0.5);
   height: 100%;
   transition: 0.8s;
   top: 0;
@@ -199,7 +204,6 @@ a:active {
   margin-left: 5px;
 }
 .post {
-  background-color: #fff;
   margin: 30px;
 }
 .post .post-title h1 {
@@ -373,7 +377,6 @@ a:active {
   position: absolute;
   width: 100%;
   padding-bottom: 5px;
-  background: #fff;
 }
 .footer a {
   color: #a6a6a6;
