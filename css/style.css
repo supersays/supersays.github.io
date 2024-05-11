@@ -204,10 +204,9 @@ a:active {
   margin-left: 5px;
 }
 .post {
-  margin-right: 160px;
   padding-top: 30px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
   background: rgba(255,255,255,0.3);
 }
 .post .post-title h1 {
@@ -410,7 +409,6 @@ a:active {
 }
 .list-with-title .listing {
   padding-left: 0;
-  padding-right: 160px;
 }
 .list-with-title .listing .listing-post {
   padding-bottom: 5px;
