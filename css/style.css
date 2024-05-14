@@ -75,14 +75,16 @@ a:active {
 .content {
   height: auto;
   float: right;
-  width: 70%;
+  width: 55%;
   margin-top: 60px;
   background: rgba(255,255,255,0);
+  position: relative;
+  right: 15%;
 }
 .page-top {
-  width: 70%;
+  width: 55%;
   position: fixed;
-  right: 0;
+  right: 15%;
   z-index: 3;
   background: rgba(255,255,255,0.9);
   height: 60px;
@@ -133,14 +135,14 @@ a:active {
   padding-right: 30px;
 }
 .sidebar {
-  width: 30%;
+  width: 25%;
   -webkit-background-size: cover;
   background-size: cover;
   background: rgba(255,255,255,0);
   height: 100%;
   transition: 0.8s;
   top: 0;
-  left: 0;
+  left: 5%;
   position: fixed;
   z-index: 4;
   border-right: 1px solid #e2e2e2;
@@ -677,6 +679,7 @@ a.btn {
     border-right: none;
     z-index: 1;
     top: auto;
+    left: 0;
   }
   .sidebar .logo-title {
     padding-top: 120px;
@@ -693,6 +696,7 @@ a.btn {
     white-space: nowrap;
     overflow-x: scroll;
     overflow-y: hidden;
+    right: 0;
   }
   .page-top .information {
     background-color: #fff;
@@ -717,7 +721,8 @@ a.btn {
     top: auto;
     width: 100%;
     z-index: 2;
-/* position: absolute; */
+    position: absolute;
+    right: 0;
   }
   .footer {
     display: none;
